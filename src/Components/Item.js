@@ -29,7 +29,7 @@ class Item extends Component {
           <h4 className="data-title">
             {description}
           </h4>
-          <img className="data-content" src={image}></img>
+          <img className="data-content" src={image} alt="data content"></img>
           {/* <p className="data-content">id {id}</p> */}
           <p className="data-content">Tags:</p>
           <p className="data-content tags">{tag}</p>

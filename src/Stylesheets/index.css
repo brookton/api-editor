@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#author {
+  position: absolute;
+  top: 95%;
+  right: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+#author a {
+  text-decoration: none;
+  color: rgb(58, 58, 58);
+}
+#author a:hover {
+  animation: zomg 0.5s infinite;
+}
+
+@keyframes zomg {
+  0%,
+  100% {
+    color: #7ccdea;
+  }
+  16% {
+    color: #0074d9;
+  }
+  32% {
+    color: #2ecc40;
+  }
+  48% {
+    color: #ffdc00;
+  }
+  64% {
+    color: #b10dc9;
+  }
+  80% {
+    color: #ff4136;
+  }
+}
