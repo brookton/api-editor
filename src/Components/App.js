@@ -92,6 +92,9 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="login-text">API Editor</h1>
+        <div id="author">
+          Created by <a href='https://davidbrookton.com'>David Brookton</a>
+        </div>
         <Container apiData={apiData} addData={this.addData} deleteData={this.deleteData} editData={this.editData}/>
       </div>
     )
